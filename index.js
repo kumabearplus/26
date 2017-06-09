@@ -11,7 +11,7 @@ if (process.argv[2]) {
 
 axios.get('http://api.jirengu.com/weather.php',data)
      .then(function (response) {
-       console.log(response.data)
+       // console.log(response.data)
        var weather = response.data.results[0].weather_data[0]
        var obj = response.data.results[0]
        console.log('城市：' + obj.currentCity)
