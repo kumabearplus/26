@@ -1,0 +1,21 @@
+{
+  "name": "kuma-weather",
+  "version": "1.0.0",
+  "description": "这是一个通过命令行查询天气的插件",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "git add . ; git commit -am \"upload\" ; git push"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "kumabear",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.16.2"
+  }
+}
